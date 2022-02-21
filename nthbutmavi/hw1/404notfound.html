@@ -36,8 +36,8 @@
         float: left;
       }
       .navbar a{
-        color: #FFFFFF;
-        text-shadow: 1px 1px #F07B2B;
+        color: #F07B2B;
+        text-shadow: 1px 1px #FFFFFF;
         text-decoration: none;
         float: left;
         padding-top: 28px;
@@ -45,16 +45,17 @@
         text-align: center;
       }
       .navbar a:hover{
-        color: #F07B2B;
-        text-shadow: 1px 1px #FFFFFF;
+        color: #FFFFFF;
+        text-shadow: 1px 1px #F07B2B;
         text-decoration: none;
       }
       .banner{
         background: url('images/404-featured.jpeg');
+        background-blend-mode: soft-light;
         background-size: 1200px;
         background-repeat: no-repeat;
         background-position: left bottom -195px;
-        background-color: #24242C;
+        background-color: rgba(250,140,50,0.5);
         padding-top: 100px;
         padding-bottom: 100px;
         padding-left: 475px;
@@ -70,117 +71,41 @@
       }
       /* -------------------- Section2 ---------------------- */
       .section2{
-        height: 510px;
-        padding-left: 180px;
-        padding-top: 110px;
+        height: 210px;
+        padding-top: 85px;
       }
       .s2col{
+        font-weight: bold;
         float: left;
-        padding: 5px;
-        width: 278px;
-        text-align: left;
-        overflow: hidden;
-      }
-      .card{
-        box-shadow: 0px 0px 4px 1px #11111A;
-        padding: 15px;
-        text-align: left;
-        float: left;
-        color: #FFFFFF;
-        width: 230px;
-        height: 360px;
-        font-family: "Comfortaa", sans-serif;
-      }
-      .card img{
-        width: 232px;
-        height: 150px;
-      }
-      .card h1{
-        font-size: 15px;
-      }
-      .card p{
-        font-size: 12px;
-        line-height: 1.5;
-      }
-      /* -------------------- Section3 ---------------------- */
-      .section3{
-        height: 395px;
-        padding-left: 170px;
-        padding-top: 110px;
-      }
-      .s3col{
-        float: left;
+        width: 1200px;
         padding: 11px;
-        width: 410px;
-        text-align: left;
+        text-align: center;
         overflow: hidden;
-      }
-      .s3col img{
-        width: 410px;
-      }
-      .s3col p{
-        text-align: justify;
-        float: left;
+        text-overflow: clip;
+        white-space: nowrap;
         color: #FFFFFF;
-        font-family: "Comfortaa", sans-serif;
-        font-size: 12px;
-        line-height: 1.5;
-      }
-      /* -------------------- Section4 ---------------------- */
-      .section4{
-        height: 550px;
-        padding-left: 170px;
-        padding-top: 110px;
-      }
-      .s4row{
-        float: left;
-        padding: 0px;
-        text-align: left;
-        overflow: hidden;
-      }
-      .imcol{
-        width: 265px;
-        float: left;
-        padding: 14px;
-      }
-      .textcol{
-        width: 550px;
-        float: left;
-        padding-top: 0px;
-        padding-left: 13px;
-        padding-right: 13px;
-        color: #FFFFFF;
-      }
-      .imcol img{
-        width: 265px;
-      }
-      .textcol h1{
         font-family: "Montserrat", sans-serif;
         font-size: 22px;
+        line-height: 1.2;
       }
-      .textcol p{
-        font-family: "Comfortaa", sans-serif;
-        text-align: justify;
-        font-size: 12px;
-        line-height: 1.5;
-      }
-      /* -------------------- Section5 ---------------------- */
-      .section5{
+      /* -------------------- Footer ---------------------- */
+      .footer{
+        width: 2000px;
         height: 190px;
         padding-left: 170px;
         color: #FFFFFF;
       }
-      .section5 p{
+      .footer p{
         font-family: "Comfortaa", sans-serif;
         font-size: 12px;
         line-height: 1.5;
       }
-      .section5 h1{
+      .footer h1{
         text-align: center;
         font-family: "Montserrat", sans-serif;
         font-size: 15px;
       }
-      .s5left{
+      .fleft{
         top: 35px;
         position: relative;
         float: left;
@@ -189,7 +114,7 @@
         text-align: center;
         overflow: hidden;
       }
-      .s5right{
+      .fright{
         top: 20px;
         position: relative;
         float: left;
@@ -198,11 +123,11 @@
         text-align: center;
         overflow: hidden;
       }
-      .s5right a{
+      .fright a{
         color: #FFFFFF;
         text-decoration: none;
       }
-      .s5right a:hover{
+      .fright a:hover{
         color: #FFFFFF;
         text-decoration: underline;
       }
@@ -224,15 +149,25 @@
       </div>
     </section>
 
-
-    <!-- Section 5: Footer -->
+    <!-- Section 2: Not exist text -->
     <section>
-      <div class="section5 bg1">
-        <div class="s5left">
+      <div class="section2 bg2">
+        <div class="s2col">
+          <p>The page you you were looking for could not be found.<br>
+            It might have been removed, renamed, or does not exist in the first place!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Footer -->
+    <section>
+      <div class="footer bg1">
+        <div class="fleft">
           <p><br><br>Tip the world over on its side and everything loose will land <br> in Los Angeles.
             <br><br>- Frank Lloyd Wright </p>
         </div>
-        <div class="s5right">
+        <div class="fright">
           <h1>Designed By</h1>
           <p><br>Kübra Keskin<br><br><a href="mailto: keskin@usc.edu">keskin@usc.edu</a>
              <br><a href="tel: +12131111111">(+1) 213 111 1111</a></p>

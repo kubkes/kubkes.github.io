@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSCI571 HW1 Kubra</title>
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <style>
+      body{
+        margin: 0;
+      }
+      hr{
+        border: 1.5px solid #9A4B5B;
+        margin: 0;
+        position: sticky;
+        top: 0px;
+      }
+      .bg1{
+        background-color: #13131E;
+      }
+      .bg2{
+        background-color: #24242C;
+      }
+      /* -------------------- Section1 ---------------------- */
+      ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      .navbar{
+        width: 2000px;
+        height: 80px;
+        font-family: "Comfortaa", sans-serif;
+        font-size: 22px;
+        padding-left: 350px;
+        float: left;
+      }
+      .navbar a{
+        color: #FFFFFF;
+        text-shadow: 1px 1px #F07B2B;
+        text-decoration: none;
+        float: left;
+        padding-top: 28px;
+        width: 165px;
+        text-align: center;
+      }
+      .navbar a:hover{
+        color: #F07B2B;
+        text-shadow: 1px 1px #FFFFFF;
+        text-decoration: none;
+      }
+      .banner{
+        background: url('images/rodeo-drive.jpeg');
+        background-size: 1200px;
+        background-repeat: no-repeat;
+        background-position: left bottom -75px;
+        background-color: #24242C;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 425px;
+        overflow: hidden;
+        text-overflow: clip;
+        white-space: nowrap;
+        height: 85px;
+      }
+      .banner h1{
+        font-size: 30px;
+        color: #F07B2B;
+        text-shadow: 1px 1.5px 1px #FFFFFF;
+        font-family: "Montserrat", sans-serif;
+      }
+      /* -------------------- Section2 ---------------------- */
+      .section2{
+        height: 510px;
+        padding-left: 180px;
+        padding-top: 110px;
+      }
+      .s2col{
+        float: left;
+        padding: 5px;
+        width: 278px;
+        text-align: left;
+        overflow: hidden;
+      }
+      .card{
+        box-shadow: 0px 0px 4px 1px #11111A;
+        padding: 15px;
+        text-align: left;
+        float: left;
+        color: #FFFFFF;
+        width: 230px;
+        height: 360px;
+        font-family: "Comfortaa", sans-serif;
+      }
+      .card img{
+        width: 232px;
+        height: 150px;
+      }
+      .card h1{
+        font-size: 15px;
+      }
+      .card p{
+        font-size: 12px;
+        line-height: 1.5;
+      }
+      /* -------------------- Section3 ---------------------- */
+      .section3{
+        height: 395px;
+        padding-left: 170px;
+        padding-top: 110px;
+      }
+      .s3col{
+        float: left;
+        padding: 11px;
+        width: 410px;
+        text-align: left;
+        overflow: hidden;
+      }
+      .s3col img{
+        width: 410px;
+      }
+      .s3col p{
+        text-align: justify;
+        float: left;
+        color: #FFFFFF;
+        font-family: "Comfortaa", sans-serif;
+        font-size: 12px;
+        line-height: 1.5;
+      }
+      /* -------------------- Section4 ---------------------- */
+      .section4{
+        height: 550px;
+        padding-left: 170px;
+        padding-top: 110px;
+      }
+      .s4row{
+        float: left;
+        padding: 0px;
+        text-align: left;
+        overflow: hidden;
+      }
+      .imcol{
+        width: 265px;
+        float: left;
+        padding: 14px;
+      }
+      .textcol{
+        width: 550px;
+        float: left;
+        padding-top: 0px;
+        padding-left: 13px;
+        padding-right: 13px;
+        color: #FFFFFF;
+      }
+      .imcol img{
+        width: 265px;
+      }
+      .textcol h1{
+        font-family: "Montserrat", sans-serif;
+        font-size: 22px;
+      }
+      .textcol p{
+        font-family: "Comfortaa", sans-serif;
+        text-align: justify;
+        font-size: 12px;
+        line-height: 1.5;
+      }
+      /* -------------------- Section5 ---------------------- */
+      .section5{
+        height: 190px;
+        padding-left: 170px;
+        color: #FFFFFF;
+      }
+      .section5 p{
+        font-family: "Comfortaa", sans-serif;
+        font-size: 12px;
+        line-height: 1.5;
+      }
+      .section5 h1{
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        font-size: 15px;
+      }
+      .s5left{
+        top: 35px;
+        position: relative;
+        float: left;
+        padding-right: 15px;
+        width: 410px;
+        text-align: center;
+        overflow: hidden;
+      }
+      .s5right{
+        top: 20px;
+        position: relative;
+        float: left;
+        padding-left: 15px;
+        width: 410px;
+        text-align: center;
+        overflow: hidden;
+      }
+      .s5right a{
+        color: #FFFFFF;
+        text-decoration: none;
+      }
+      .s5right a:hover{
+        color: #FFFFFF;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <hr>
+    <!-- Section 1: Banner image and text -->
+    <section>
+      <div class="navbar bg1">
+        <ul>
+          <li><a href="index.html"> Home </a></li>
+          <li><a href="404notfound.html"> Explore </a></li>
+          <li><a href="404notfound.html"> Contact </a></li>
+        </ul>
+      </div>
+      <div class="banner bg1">
+        <h1>LA - The City of Angels</h1>
+      </div>
+    </section>
+
+    <!-- Section 2: Cards with image and text -->
+    <section>
+      <div class="section2 bg2">
+        <div class="s2col">
+          <div class="card bg1">
+            <img src="images/griffith.jpeg" alt="">
+            <h1>Griffith Observatory</h1>
+            <p>Griffith Observatory is southern California's gateway to the cosmos!
+              Visitors may look through telescopes, explore exhibits,
+              see live shows in the Samuel Oschin Planetarium,
+              and enjoy spectacular views of Los Angeles and the Hollywood Sign."</p>
+          </div>
+        </div>
+        <div class="s2col">
+          <div class="card bg1">
+            <img src="images/mountains.jpeg" alt="">
+            <h1>Mountains</h1>
+            <p>Soaring high above the Los Angeles Basin, the San Gabriel Mountains
+               serves as the backyard to the nation's second-largest urban center.
+               This chaparral-cloaked land of steep ridges and V-shaped canyons is
+               one of the wildest remaining areas in the surrounding Angeles National Forest</p>
+          </div>
+        </div>
+        <div class="s2col">
+          <div class="card bg1">
+            <img src="images/universalstudios.jpeg" alt="">
+            <h1>Universal Studios</h1>
+            <p>Find a full day of action-packed entertainment all in one place:
+              thrilling Theme Park rides and shows, a real working movie studio,
+              and Los Angeles' best shops, restaurants and cinemas at CityWalk.
+              Universal Studios Hollywood is a unique experience that's fun for the whole family.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: LA image and text -->
+    <section>
+      <div class="section3 bg1">
+        <div class="s3col">
+          <p>Los Angeles is the City of Dreams and is the heart of southern California.
+            It is a vast and varied geographic entity. The city is famous for being the
+            home of the rich and famous, Hollywood, the main home of major entertainment
+            companies, ethnically diverse, and the second-largest city in America.
+            <br><br>
+            The residents of Los Angeles are called Angelenos. Their lifestyle
+            relies on the automobile, idealizes the single-family dwelling, and
+            favours informality. With notable exceptions, the skyline is primarily
+            horizontal rather than vertical. Los Angeles is a place of extraordinary
+            ethnic and racial diversity, owing largely to immigration, and, like other
+            world cities, it reflects a growing gap between rich and poor.
+          </p>
+        </div>
+        <div class="s3col">
+          <img src="images/lasky.png" alt="">
+        </div>
+        <div class="s3col">
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Multiple images and texts -->
+    <section>
+      <div class="section4 bg2">
+        <div class="s4row">
+          <div class="imcol">
+            <img src="images/hollywood.jpeg" alt="">
+          </div>
+          <div class="textcol">
+            <h1 style="text-align: left">Hollywood</h1>
+            <p>No trip to Los Angeles is complete without a visit to Hollywood,
+              the home of movie studios, many of LA's most popular and historic
+              tourist destinations, and its world-famous namesake boulevard.
+              A larger-than-life symbol of the entertainment business,
+              Hollywood beckons tourists with landmarks like TCL Chinese Theatre
+              and star-studded Walk of Fame. Many tourists come to Hollywood to
+              see all of these things. Because of the importance of Hollywood
+              in the movie industry of the United States, the whole industry is
+              often called "Hollywood", even though not all movies are made in
+              Hollywood.</p>
+          </div>
+        </div>
+        <div class="s4row">
+          <div class="textcol">
+            <h1 style="text-align: right">Beaches</h1>
+            <p>One of the biggest draws of the Los Angeles area is the beach scene
+              (especially when you've had enough of the traffic). Los Angeles may
+              possibly be the American city with the best overall variety of local
+              beaches. There are a wide range of beaches within the large confines
+              of Los Angeles County, and the county also neighbors miles and miles
+              of other beach cities, spreading both north and south of LA. Families
+              may enjoy large beaches like Santa Monica or Redondo Beach, with a wide
+              range of facilities, retail areas, and amenities, while adventurers may
+              like more secluded beaches like those found in Malibu or Palos Verdes.</p>
+          </div>
+          <div class="imcol">
+            <img src="images/beach.jpeg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Footer -->
+    <section>
+      <div class="section5 bg1">
+        <div class="s5left">
+          <p><br><br>Tip the world over on its side and everything loose will land <br> in Los Angeles.
+            <br><br>- Frank Lloyd Wright </p>
+        </div>
+        <div class="s5right">
+          <h1>Designed By</h1>
+          <p><br>Kübra Keskin<br><br><a href="mailto: keskin@usc.edu">keskin@usc.edu</a>
+             <br><a href="tel: +12131111111">(+1) 213 111 1111</a></p>
+        </div>
+      </div>
+    </section>
+
+  </body>
+</html>

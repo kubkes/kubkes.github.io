@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSCI571 HW1 Kubra</title>
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <style>
+      body{
+        margin: 0;
+      }
+      hr{
+        border: 1.5px solid #9A4B5B;
+        margin: 0;
+        position: sticky;
+        top: 0px;
+      }
+      .bg1{
+        background-color: #13131E;
+      }
+      .bg2{
+        background-color: #24242C;
+      }
+      /* -------------------- Section1 ---------------------- */
+      ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      .navbar{
+        width: 2000px;
+        height: 80px;
+        font-family: "Comfortaa", sans-serif;
+        font-size: 22px;
+        padding-left: 350px;
+        float: left;
+      }
+      .navbar a{
+        color: #FFFFFF;
+        text-shadow: 1px 1px #F07B2B;
+        text-decoration: none;
+        float: left;
+        padding-top: 28px;
+        width: 165px;
+        text-align: center;
+      }
+      .navbar a:hover{
+        color: #F07B2B;
+        text-shadow: 1px 1px #FFFFFF;
+        text-decoration: none;
+      }
+      .banner{
+        background: url('images/404-featured.jpeg');
+        background-size: 1200px;
+        background-repeat: no-repeat;
+        background-position: left bottom -195px;
+        background-color: #24242C;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 475px;
+        overflow: hidden;
+        text-overflow: clip;
+        white-space: nowrap;
+        height: 85px;
+      }
+      .banner h1{
+        font-size: 30px;
+        color: #000000;
+        font-family: "Montserrat", sans-serif;
+      }
+      /* -------------------- Section2 ---------------------- */
+      .section2{
+        height: 510px;
+        padding-left: 180px;
+        padding-top: 110px;
+      }
+      .s2col{
+        float: left;
+        padding: 5px;
+        width: 278px;
+        text-align: left;
+        overflow: hidden;
+      }
+      .card{
+        box-shadow: 0px 0px 4px 1px #11111A;
+        padding: 15px;
+        text-align: left;
+        float: left;
+        color: #FFFFFF;
+        width: 230px;
+        height: 360px;
+        font-family: "Comfortaa", sans-serif;
+      }
+      .card img{
+        width: 232px;
+        height: 150px;
+      }
+      .card h1{
+        font-size: 15px;
+      }
+      .card p{
+        font-size: 12px;
+        line-height: 1.5;
+      }
+      /* -------------------- Section3 ---------------------- */
+      .section3{
+        height: 395px;
+        padding-left: 170px;
+        padding-top: 110px;
+      }
+      .s3col{
+        float: left;
+        padding: 11px;
+        width: 410px;
+        text-align: left;
+        overflow: hidden;
+      }
+      .s3col img{
+        width: 410px;
+      }
+      .s3col p{
+        text-align: justify;
+        float: left;
+        color: #FFFFFF;
+        font-family: "Comfortaa", sans-serif;
+        font-size: 12px;
+        line-height: 1.5;
+      }
+      /* -------------------- Section4 ---------------------- */
+      .section4{
+        height: 550px;
+        padding-left: 170px;
+        padding-top: 110px;
+      }
+      .s4row{
+        float: left;
+        padding: 0px;
+        text-align: left;
+        overflow: hidden;
+      }
+      .imcol{
+        width: 265px;
+        float: left;
+        padding: 14px;
+      }
+      .textcol{
+        width: 550px;
+        float: left;
+        padding-top: 0px;
+        padding-left: 13px;
+        padding-right: 13px;
+        color: #FFFFFF;
+      }
+      .imcol img{
+        width: 265px;
+      }
+      .textcol h1{
+        font-family: "Montserrat", sans-serif;
+        font-size: 22px;
+      }
+      .textcol p{
+        font-family: "Comfortaa", sans-serif;
+        text-align: justify;
+        font-size: 12px;
+        line-height: 1.5;
+      }
+      /* -------------------- Section5 ---------------------- */
+      .section5{
+        height: 190px;
+        padding-left: 170px;
+        color: #FFFFFF;
+      }
+      .section5 p{
+        font-family: "Comfortaa", sans-serif;
+        font-size: 12px;
+        line-height: 1.5;
+      }
+      .section5 h1{
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        font-size: 15px;
+      }
+      .s5left{
+        top: 35px;
+        position: relative;
+        float: left;
+        padding-right: 15px;
+        width: 410px;
+        text-align: center;
+        overflow: hidden;
+      }
+      .s5right{
+        top: 20px;
+        position: relative;
+        float: left;
+        padding-left: 15px;
+        width: 410px;
+        text-align: center;
+        overflow: hidden;
+      }
+      .s5right a{
+        color: #FFFFFF;
+        text-decoration: none;
+      }
+      .s5right a:hover{
+        color: #FFFFFF;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <hr>
+    <!-- Section 1: Banner image and text -->
+    <section>
+      <div class="navbar bg1">
+        <ul>
+          <li><a href="index.html"> Home </a></li>
+          <li><a href="404notfound.html"> Explore </a></li>
+          <li><a href="404notfound.html"> Contact </a></li>
+        </ul>
+      </div>
+      <div class="banner bg1">
+        <h1>Page Not Found</h1>
+      </div>
+    </section>
+
+
+    <!-- Section 5: Footer -->
+    <section>
+      <div class="section5 bg1">
+        <div class="s5left">
+          <p><br><br>Tip the world over on its side and everything loose will land <br> in Los Angeles.
+            <br><br>- Frank Lloyd Wright </p>
+        </div>
+        <div class="s5right">
+          <h1>Designed By</h1>
+          <p><br>Kübra Keskin<br><br><a href="mailto: keskin@usc.edu">keskin@usc.edu</a>
+             <br><a href="tel: +12131111111">(+1) 213 111 1111</a></p>
+        </div>
+      </div>
+    </section>
+
+  </body>
+</html>

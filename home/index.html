@@ -49,11 +49,11 @@
 
     <nav id="navbar" class="navbar nav-menu">
       <ul>
-        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#home" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
         <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#projects" class="nav-link scrollto"><i class="bx bx-code"></i> <span>Projects</span></a></li>
         <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
         <li><a href="#publications" class="nav-link scrollto"><i class="bx bx-edit"></i> <span>Publications</span></a></li>
-        <li><a href="#projects" class="nav-link scrollto"><i class="bx bx-code"></i> <span>Projects</span></a></li>
         <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
         <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
       </ul>
@@ -65,7 +65,7 @@
   <section id="hero" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
       <h1>Kübra Keskin</h1>
-      <!--<p>I'm <span class="typed" data-typed-items=""></span></p>-->
+      <!-- <p>I like <span class="typed" data-typed-items="programming,art,creativity"></span></p> -->
       <p>Los Angeles, CA</p>
       <div class="social-links">
         <!--<a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -94,7 +94,7 @@
             <img src="assets/img/profile-img.jpeg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
-            <!--<h3>UI/UX Designer &amp; Web Developer.</h3>-->
+            <h3>Engineer &amp; Researcher</h3>
             <p>
               I am a Ph.D. student in Electrical and Computer Engineering at University of Southern California.
               I am a research assistant at <a href="https://mrel.usc.edu/" target="_blank">Magnetic Resonance Engineering Laboratory (MREL)</a> 
@@ -106,9 +106,9 @@
               in <a href="http://umram.bilkent.edu.tr/" target="_blank">National Magnetic Resonance Research Center (UMRAM)</a>
               under the supervision of <a href="http://kilyos.ee.bilkent.edu.tr/~cukur/" target="_blank">Prof. Tolga Çukur</a>.
               <br><br>
-              I also have a passion for art and technology, and creative expressions made possible by their intersection. 
+              I have a passion for computer graphics, animation, interactive media, art, and visual expression.
             </p>
-            <div class="row">
+            <!-- <div class="row">
               <div class="col-lg-6">
                 <ul>
                   <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Los Angeles, CA, USA</span></li>
@@ -119,17 +119,130 @@
                   <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>keskin@usc.edu</span></li>
                 </ul>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
 
       </div>
     </section><!-- End About Section -->
 
-    
 
-    <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills section-bg">
+    <!-- ======= Projects Section ======= -->
+    <section id="projects" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Projects</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-mri">MRI</li>
+              <li data-filter=".filter-cg">CG</li>
+              <li data-filter=".filter-card">ML</li>
+              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-ece">EE</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-mri">
+            <div class="portfolio-wrap">
+              <img src="assets/img/projects/mri-metal.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>MRI near metallic implants at 0.55T</h4>
+                <p>Doctoral Thesis Project</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/projects/mri-metal.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="MRI of a person with a spine implant"><i class="bx bx-plus"></i></a>
+                  <a href="projects_mri-1.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Project Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-mri">
+            <div class="portfolio-wrap">
+              <img src="assets/img/projects/mri-brain.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Efficient parametric mapping for MRI</h4>
+                <p>Masters Thesis Project</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/projects/mri-brain.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Banding artifact free MRI reconstruction of a brain"><i class="bx bx-plus"></i></a>
+                  <a href="projects_mri-2.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Project Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cg">
+            <div class="portfolio-wrap">
+              <img src="assets/img/projects/cg-raytracer-crop.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Ray Tracer</h4>
+                <p>Computer Graphics</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/projects/cg-raytracer.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="A snowman scene rendered with the ray tracer with a soft shadow"><i class="bx bx-plus"></i></a>
+                  <a href="projects_cg-1.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Project Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cg">
+            <div class="portfolio-wrap">
+              <img src="assets/img/projects/cg-rollercoaster-crop.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Roller Coaster Simulation</h4>
+                <p>Computer Graphics</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/projects/cg-rollercoaster.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Roller coaster simulation"><i class="bx bx-plus"></i></a>
+                  <a href="projects_cg-2.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Project Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cg">
+            <div class="portfolio-wrap">
+              <img src="assets/img/projects/cg-heightfield-crop.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Height Fields Using Shaders</h4>
+                <p>Computer Graphics</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/projects/cg-heightfield.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="An interactively colored heightfield created from an image input"><i class="bx bx-plus"></i></a>
+                  <a href="projects_cg-3.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Project Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cg">
+            <div class="portfolio-wrap">
+              <img src="assets/img/projects/cg-car-crop.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Low-poly Car Modeling, Rigging, and Animation</h4>
+                <p>Introduction to 3D Modeling, Animation, and Visual Effects</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/projects/cg-car.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Animation of a low-poly car modelled and rigged in Maya"><i class="bx bx-plus"></i></a>
+                  <a href="projects_cg-4.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Project Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Projects Section -->
+
+
+
+     <!-- ======= Skills Section ======= -->
+     <section id="skills" class="skills section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -162,6 +275,9 @@
       </div>
     </section><!-- End Skills Section -->
 
+
+
+    
     <!-- ======= Resume Section ======= -->
     <section id="resume" class="resume">
       <div class="container" data-aos="fade-up">
@@ -389,61 +505,7 @@
       </div>
     </section><!-- End Resume Section -->
 
-    <!-- ======= Projects Section ======= -->
-    <section id="projects" class="portfolio section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Projects</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-mri">MRI</li>
-              <li data-filter=".filter-card">ML</li>
-              <li data-filter=".filter-web">Web</li>
-              <li data-filter=".filter-ece">EE</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-mri">
-            <div class="portfolio-wrap">
-              <img src="assets/img/projects/mri-metal.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Imaging near metal at 0.55T</h4>
-                <p>MRI</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/projects/mri-metal.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="MRI 1"><i class="bx bx-plus"></i></a>
-                  <a href="projects_mri-1.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Project Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-mri">
-            <div class="portfolio-wrap">
-              <img src="assets/img/projects/mri-brain.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Efficient parametric mapping for MRI</h4>
-                <p>MRI</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/projects/mri-brain.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="MRI 2"><i class="bx bx-plus"></i></a>
-                  <a href="projects_mri-2.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Project Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Projects Section -->
-
+    
 
     <!-- ======= Portfolio Section ======= -->
     <!-- <section id="portfolio" class="portfolio section-bg">

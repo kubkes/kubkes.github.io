@@ -1215,3 +1215,41 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+
+/* Image Overlay */
+.image2 {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  width: auto;
+  height: 40px;
+  /* background-color: rgba(7, 7, 7, 0.307); */
+  /* border: 1px rgb(76, 153, 76) solid; */
+}
+
+.image3 {
+  position: absolute;
+  bottom: 5px;
+  left: 45px;
+  width: auto;
+  height: 40px;  
+  /* background-color: rgba(7, 7, 7, 0.307); */
+  /* border: 1px rgb(76, 153, 76) solid; */
+}
+
+.eigthwall{
+  position: absolute;
+  bottom: 10px;
+  left: 55px;
+  width: auto;
+  height: 35px;  
+}
+
+.aframe{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: auto;
+  height: 35px;  
+}
